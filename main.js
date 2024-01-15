@@ -22,6 +22,6 @@ currencyForm.onsubmit = function (e) {
 
     document.querySelector(
       ".result"
-    ).innerHTML = `The value in NIS is : ${convertedCurrency}`;
+    ).innerHTML = `The converted Value is : ${convertedCurrency}`;
   }
 };
