@@ -1,0 +1,46 @@
+body {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.currencyConverter {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(93, 3, 90, 0.763);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 30px;
+  color:rgb(93, 3, 90);
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+input[type="submit"] {
+  background-color: rgb(93, 3, 90);
+  color: #eee;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: 700;
+}
